@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="styles/percenbar.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/footer.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav id="navbar">
@@ -54,8 +57,7 @@
         </div>
       </section>
     </nav>
-    <div style="height: 350px"></div>
-    <main>
+    <div style="height: 400px; display: flex; align-items: flex-end; margin: 30px;" >
       <section id="about">
         <h1>About Me</h1>
         <p>
@@ -65,9 +67,11 @@
           consequuntur alias debitis nesciunt?
         </p>
       </section>
+    </div>
+    <main>
+      <h1>Programming skill</h1>
       <section id="dev-skill">
         <aside>
-          <h1>Programming skill</h1>
           <img src="img/code.svg" alt="img-code" />
         </aside>
         <section class="display-skill">
@@ -220,7 +224,7 @@
 
     bars.forEach((bar, index) => {
       const randomWidth = Math.floor(Math.random() * 65 + 10);
-      bar.style.width = `${randomWidth}%`;
+      bar.style.width = `${0}%`;
 
       document.querySelector("#dev-skill").addEventListener("mouseover", () => {
         const randomTiming = Math.floor(Math.random() * 2 + 2);

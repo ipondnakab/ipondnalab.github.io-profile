@@ -1,8 +1,15 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #dev-skill {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 0 5vw
 }
 
 #dev-skill > aside {
@@ -30,9 +37,10 @@ align-items: center;
 
 #about {
     width: 40vw;
-    align-self: center;
     margin: 48px auto;
     text-align: center;
+    position: relative;
+    bottom: 0;
 }
 
 #education {
