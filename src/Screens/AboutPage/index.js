@@ -42,16 +42,16 @@ export default function AboutPage({ isEnglish }) {
           <h2>{isEnglish ? "Kittipat Daengdee" : "กิตติพัฒน์ แดงดี"}</h2>
           <p>
             {isEnglish
-              ? "Kittipat Daengdee"
-              : "สวัสดีครับผมชื่อ นายกิตติพัฒน์ แดงดี ชื่อเล่นชื่อ ปอนด์ เป็นนักศึกษาชั้นปีที่ คณะวิศวกรรมศาสตร์ สาขาคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น"}
+              ? "Hello, my name's is Kitttipat Daengdee but you can call me Pond I'm a junior in Computer Engineering Khon Kaen University, I've skill programming problem and teamwork. I'm good at Web application development and Mobile application development."
+              : "สวัสดีครับผมชื่อ ปอนด์ เป็นนักศึกษาชั้นปีที่ 3 คณะวิศวกรรมศาสตร์ สาขาคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น มีทักษะการเขียนโปรแกรม การแก้ปัญหา และการทำงานเป็นทีม โดยถนัดการพัฒนาเว็บแอพพลิเคชั่น  และ โมบายแอพพลิเคชั่น"}
           </p>
         </div>
         <div className="about-me">
           <h3>{isEnglish ? "Career Objective" : "ตำแหน่งงานที่สนใจ"}</h3>
           <p>
             {isEnglish
-              ? "Full Stack Developer, Mobile Developer"
-              : "Full Stack Developer, Mobile Developer"}
+              ? "Full Stack Developer, Web Deverloper, Mobile Developer"
+              : "Full Stack Developer, Web Deverloper, Mobile Developer"}
           </p>
         </div>
 
