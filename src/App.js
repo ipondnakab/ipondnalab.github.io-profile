@@ -6,7 +6,7 @@ import SocailTab from "./Components/SocailTab";
 import Skills from "./Screens/SkillsPage";
 import EducationPage from "./Screens/EducationPage";
 import AboutPage from "./Screens/AboutPage";
-import ExperiencesPage from "./Screens/ExperiencesPage"
+import ExperiencesPage from "./Screens/ExperiencesPage";
 
 import {
   BrowserRouter as Router,
@@ -40,22 +40,22 @@ export default () => {
       />
       <div className={"content"}>
         <Switch>
-          <Route path="/experiences">
+          <Route path="/profile/experiences">
             <ExperiencesPage isEnglish={isEnglish} />
           </Route>
-          <Route path="/education">
+          <Route path="/profile/education">
             <EducationPage isEnglish={isEnglish} />
           </Route>
-          <Route path="/skill">
+          <Route path="/profile/skill">
             <Skills isEnglish={isEnglish} />
           </Route>
-          <Route path="/reference">
+          <Route path="/profile/reference">
             <Reference isEnglish={isEnglish} />
           </Route>
-          <Route path="/about" strict>
+          <Route path="/profile/about" strict>
             <AboutPage isEnglish={isEnglish} />
           </Route>
-          <Redirect to={"/about"} />
+          <Redirect to={"/profile/about"} />
         </Switch>
       </div>
       <SocailTab />

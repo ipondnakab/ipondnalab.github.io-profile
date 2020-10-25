@@ -39,28 +39,28 @@ export default ({props}) => {
     },
     {
       name: "TS",
-      percent: 85,
+      percent: 80,
       icon: <SiTypescript size={30} />,
     },
     {
       name: "Python",
-      percent: 85,
+      percent: 75,
       icon: <SiPython size={30} />,
     },
     {
       name: "Java",
-      percent: 80,
+      percent: 70,
       icon: <SiJava size={30} />,
     },
     {
       name: "C++",
-      percent: 70,
+      percent: 60,
       icon: <SiCplusplus size={30} />,
     },
   ];
   return (
     <div className="software-skill">
-      <h1 className="header-skill">{props.isEnglish? "Software skills": "สกิลโปรแกรมมิ่ง"}</h1>
+      <h1 className="header-skill">{props.isEnglish? " Programming skills": "การเขียนโปรแกรม"}</h1>
       {listSkill.map((item) => (
         <div style={{ display: "flex", alignItems: "center", width: "100%" }}>
           {item.icon}

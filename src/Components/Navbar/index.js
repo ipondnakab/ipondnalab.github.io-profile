@@ -14,31 +14,31 @@ export default ({ isDarkMode, setIsDarkMode, isEnglish, setIsEnglish }) => {
     {
       title: isEnglish ? message.about.en : message.about.th,
       index: 0,
-      path: "/about",
+      path: "/profile/about",
       icon: <AiOutlineUser size={24} />,
     },
     {
       title: isEnglish ? message.skill.en : message.skill.th,
       index: 1,
-      path: "/skill",
+      path: "/profile/skill",
       icon: <FiTerminal size={24} />,
     },
     {
       title: isEnglish ? message.education.en : message.education.th,
       index: 2,
-      path: "/education",
+      path: "/profile/education",
       icon: <FiBook size={24} />,
     },
     {
       title: isEnglish ? message.experiences.en : message.experiences.th,
       index: 3,
-      path: "/experiences",
+      path: "/profile/experiences",
       icon: <FiAward size={24} />,
     },
     {
       title: isEnglish ? message.reference.en : message.reference.th,
       index: 4,
-      path: "/reference",
+      path: "/profile/reference",
       icon: <FiUsers size={24} />,
     },
   ];

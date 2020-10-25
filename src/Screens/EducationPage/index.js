@@ -16,11 +16,11 @@ export default function OppositeContentTimeline({ isEnglish }) {
       place: isEnglish ? "Mueang Mai Wittaya School" : "โรงเรียนเมืองใหม่วิทยา",
     },
     {
-      label: isEnglish ? "Secondary School" : "ม.1 - 3",
+      label: isEnglish ? "Junior High School" : "ม.1 - 3",
       place: isEnglish ? "Mueang Mai Wittaya School" : "โรงเรียนเมืองใหม่วิทยา",
     },
     {
-      label: isEnglish ? "High School" : "ม.4 - 6",
+      label: isEnglish ? "Senior High School" : "ม.4 - 6",
       place: isEnglish
         ? "Si Bun Rueang Wittayakran School"
         : "โรงเรียนศรีบุญเรืองวิทยาคาร",

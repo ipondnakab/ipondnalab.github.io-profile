@@ -21,7 +21,7 @@ export default function ExperiencesPage({ isEnglish }) {
               en:
                 "Course projects Advanced computer programming make an android application using Java languages and android studio IDE",
               th:
-                "โปรเจ็ครายวิชา หลักมูลของการเขียนโปรแกรมคอมพิวเตอร์ โดยพัฒนาแอพลิเคชันแอนดรอย์ ด้วยภาษา Java และ Android Studio IDE",
+                "โปรเจ็ครายวิชา การเขียนโปรแกรมคอมพิวเตอร์ขั้นสูง โดยพัฒนาแอพพลิเคชันแอนดรอยด์ ด้วยภาษา Java และ Android Studio IDE",
             },
             {
               en: "I've joined the race a PLC Competition 14th by TPA",
@@ -44,7 +44,7 @@ export default function ExperiencesPage({ isEnglish }) {
               en:
                 "I've joined internship programs's Zercle Technology. Learn about website development and framework Angular",
               th:
-                "ได้เข้่ร่วมโปรแกรมฝึกงานกับบริษัท Zercle Technology โดยได้เรียนรู้เรื่องการพัฒนาเว็บไซต์เฟลมเวิร์ค Angular",
+                "ได้เข้าร่วมโปรแกรมฝึกงานกับบริษัท Zercle Technology โดยได้เรียนรู้เรื่องการพัฒนาเว็บไซต์และเฟรมเวิร์ค Angular",
             },
             {
               en: "I've joined the race a PLC Competition 15th by TPA",
@@ -59,37 +59,37 @@ export default function ExperiencesPage({ isEnglish }) {
           data: [
             {
               en:
-                "I've joined training a Getting started with SCB API learn about SCB API",
+                "I joined with the training program of A Getting Started with SCB API to learn about using SCB API.",
               th:
                 "เข้าร่วมเวิร์คช็อปของโครงการ Getting started with SCB API ได้รับความรู้เรื่องการใช้งาน SCB API จัดโดย ธนาคารไทยพานิช",
             },
             {
               en:
-                "I've joined the race a Robo inovetor Challenge By Software Pake Thailand",
+                "I joined with Robo Inovetor Challenge by Software Pake Thailand about the robot competition of AI system.",
               th:
                 "เข้าร่วมการแข่งขันหุ่นยนต์ระบบ AI โครงการ Robo inovetor Challenge By Software Pake Thailand ",
             },
             {
               en:
-                "I used to be a guest speaker about IoT (internet of things) and NodeMCU of smart camps",
+                "The expert taught about IoT (Internet of Things), and the using of NodeMCU (ESP8266) in Smart camp.",
               th:
                 "เป็นวิทยากรสอนเรื่อง IoT (Internet of things) และการใช้งาน NodeMCU(ESP8266) ของค่าย Smart Camp",
             },
             {
               en:
-                "Course projects Web Apllication Deverlopmeny make an Web Application shopping Farmacro using React, Firebase, Google API and Facebook API (in progress)",
+                "Web Application Development course, I've developed web application of Shopping Farmacro with React, Firebase, Google API, and Facebook API. (In process)",
               th:
                 "โปรเจครายวิชาการพัฒนาเว็บแอพพลิเคชัน โดยพัฒนาเว็บแอพพลิเคชัน Farmacro ด้วยเฟลมเวิร์ค React, Firebase, Google API และ Facebook API (อยู่ในระหว่างการพัฒนา)",
             },
             {
               en:
-                "Course projects Web Apllication Deverlopmeny make an Web Application shopping Farmacro using React and Firebase (in progress)",
+                "System of Data-Base course, I've developed data-base with React and Firebase. (In process) ",
               th:
                 "โปรเจครายวิชาระบบฐานข้อมูล โดยพัฒนาฐานข้อมูล ด้วย React และ Firebase (อยู่ในระหว่างการพัฒนา)",
             },
             {
               en:
-                "I've joined the race a NSC (National Software Contest) frist round (In progress)",
+                "I've participated with NSC (National Software Contest). Now I'm going in process of the next round competition.",
               th:
                 "เข้าร่วมโครงการ NSC (National Software Contest) ในขณะนี้ผ่านเข้ารอบคัดเลือก (อยู่ในระหว่างแข่ง)",
             },
@@ -107,7 +107,7 @@ export default function ExperiencesPage({ isEnglish }) {
         },
         {
           en:
-            "Mechatronics club Faculty of engineering Khon Kaen Unuversity president (2019 - Present)",
+            "Head of Mechatronics Club, Faculty of Engineering, Khon Kaen Unuversity (2019 - Present)",
           th:
             "ประธานชุมนุมแม็คคาทรอนิกส์ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยขอนแก่น (2019-ปัจจุบัน)",
         },
