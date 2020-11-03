@@ -7,6 +7,7 @@ import Skills from "./Screens/SkillsPage";
 import EducationPage from "./Screens/EducationPage";
 import AboutPage from "./Screens/AboutPage";
 import ExperiencesPage from "./Screens/ExperiencesPage";
+import ReferencePage from "./Screens/ReferencePage";
 
 import {
   BrowserRouter as Router,
@@ -50,12 +51,15 @@ export default () => {
             <Skills isEnglish={isEnglish} />
           </Route>
           <Route path="/profile/reference">
-            <Reference isEnglish={isEnglish} />
+            <ReferencePage isEnglish={isEnglish} />
           </Route>
           <Route path="/profile/about" strict>
             <AboutPage isEnglish={isEnglish} />
           </Route>
-          <Redirect to={"/profile/about"} />
+          <Route path="/profile/" strict>
+            <AboutPage isEnglish={isEnglish} />
+          </Route>
+          <Redirect to={"/profile/"} />
         </Switch>
       </div>
       <SocailTab />
