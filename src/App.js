@@ -60,6 +60,7 @@ export default () => {
             <AboutPage isEnglish={isEnglish} />
           </Route>
           <Redirect to={"/profile/"} />
+          <Route component={ExperiencesPage({ isEnglish })} />
         </Switch>
       </div>
       <SocailTab />
