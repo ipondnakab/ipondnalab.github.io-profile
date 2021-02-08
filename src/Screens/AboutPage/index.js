@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./aboutPage.css";
 import { FiHome } from "react-icons/fi";
 import { BsPhone } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import imageProfile from "../../Images/Profile-square.png";
+import { FaCaretDown, FaCaretUp } from "react-icons/fa";
+
+import * as Colors from "../../Assets/Color";
 
 export default function AboutPage({ isEnglish }) {
+  const [showContact, setShowContact] = useState(false);
   const listContact = [
     {
       name: "address",
@@ -56,20 +60,37 @@ export default function AboutPage({ isEnglish }) {
         </div>
 
         <div className="contact-me">
-          <h3>{isEnglish ? "Contact" : "ช่องทางติดต่อ"}</h3>
-          {listContact.map((item, key) => {
-            return (
-              <div className="contact-item" key={key}>
-                <div className="contact-item-label">
-                  {item.icon}
-                  {/* <p>{isEnglish ? item.labelEn : item.labelTh}</p> */}
+          <div>
+            <h3
+              onClick={() => setShowContact(!showContact)}
+              style={{ cursor: "pointer", textDecoration: "underline" }}
+            >
+              {isEnglish ? "Contact" : "ช่องทางติดต่อ"}
+              {showContact ? (
+                <FaCaretUp size={20} style={{ marginLeft: 8, marginTop: 4 }} />
+              ) : (
+                <FaCaretDown
+                  size={20}
+                  style={{ marginLeft: 8, marginTop: 4 }}
+                />
+              )}
+            </h3>
+          </div>
+
+          {showContact &&
+            listContact.map((item, key) => {
+              return (
+                <div className="contact-item" key={key}>
+                  <div className="contact-item-label">
+                    {item.icon}
+                    {/* <p>{isEnglish ? item.labelEn : item.labelTh}</p> */}
+                  </div>
+                  <p className="contact-item-detail">
+                    {isEnglish ? item.en : item.th}
+                  </p>
                 </div>
-                <p className="contact-item-detail">
-                  {isEnglish ? item.en : item.th}
-                </p>
-              </div>
-            );
-          })}
+              );
+            })}
         </div>
       </div>
     </div>

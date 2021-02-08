@@ -7,7 +7,7 @@ import "./navbar.css";
 import { AiOutlineUser } from "react-icons/ai";
 import { FiTerminal } from "react-icons/fi";
 import { FiBook, FiAward, FiUsers } from "react-icons/fi";
-
+import imageLogo from "../../Images/profile-small.jpg";
 const windowWidth = window.innerWidth;
 export default ({ isDarkMode, setIsDarkMode, isEnglish, setIsEnglish }) => {
   const listLink = [
@@ -56,10 +56,7 @@ export default ({ isDarkMode, setIsDarkMode, isEnglish, setIsEnglish }) => {
   return (
     <nav className={"navbar"}>
       <div className={"left-navbar"}>
-        <img
-          src="https://scontent.fbkk2-8.fna.fbcdn.net/v/t1.0-9/118520247_3322103017883628_7802174489436117407_o.jpg?_nc_cat=102&_nc_sid=09cbfe&_nc_eui2=AeHdCge8IFIBSXzkbz6-n_ABx6HMRBuM14THocxEG4zXhLyFzJpIDdxeU8z0KHa3s-DzUdM0X6hj566NC_v5E0IJ&_nc_ohc=aldlewPZgrYAX99eYPW&_nc_ht=scontent.fbkk2-8.fna&oh=5467a11f1a60b5f4cb31ba09430e9465&oe=5FB1D4AD"
-          alt="Profile"
-        />
+        <img src={imageLogo} alt="Profile" />
       </div>
       <div className={"center-navbar"}>
         <ul>

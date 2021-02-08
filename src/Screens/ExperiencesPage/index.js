@@ -41,7 +41,7 @@ export default function ExperiencesPage({ isEnglish }) {
             },
             {
               en:
-                "internship programs's Zercle Technology. Learn about website development, framework NodeJS and framework Angular",
+                "internship programs's Zercle Technology. Learn about website development, mySQL, framework NodeJS and framework Angular",
               th:
                 "ได้เข้าร่วมโปรแกรมฝึกงานกับบริษัท Zercle Technology โดยได้เรียนรู้เรื่องการพัฒนาเว็บไซต์ เฟรมเวิร์ค NodeJS และ Angular",
             },
@@ -76,14 +76,14 @@ export default function ExperiencesPage({ isEnglish }) {
             },
             {
               en:
-                "Developed web application of Shopping Farmacro with React, Firebase, Google API, and Facebook API. (In process)",
+                "Developed web application of Shopping Farmacro with React, Firebase, Google API, and Facebook API.",
               th:
-                "พัฒนาเว็บแอพพลิเคชัน Farmacro ด้วยเฟลมเวิร์ค React, Firebase, Google API และ Facebook API (อยู่ในระหว่างการพัฒนา)",
+                "พัฒนาเว็บแอพพลิเคชัน Farmacro ด้วยเฟลมเวิร์ค React, Firebase, Google API และ Facebook API",
             },
             {
-              en: "Developed data-base with React and Firebase. (In process) ",
+              en: "Developed data-base with React and Firebase.",
               th:
-                "พัฒนาฐานข้อมูล ด้วย React และ Firebase (อยู่ในระหว่างการพัฒนา)",
+                "พัฒนาฐานข้อมูล ด้วย React และ Firebase",
             },
             {
               en:
@@ -100,8 +100,8 @@ export default function ExperiencesPage({ isEnglish }) {
       th: "อื่นๆ",
       data: [
         {
-          en: "Student Union Khon Kaen Univerity (2018 - Present)",
-          th: "ทำงานองค์การนักศึกษา (2018-ปัจจุบัน)",
+          en: "Student Union Khon Kaen Univerity (2018 - 2020)",
+          th: "ทำงานองค์การนักศึกษา (2018-2020)",
         },
         {
           en:
